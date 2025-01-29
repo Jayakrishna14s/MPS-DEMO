@@ -58,7 +58,8 @@ export default function LoginForm({}) {
           <input
             type="text"
             onChange={handleChange}
-            value={loginData["memberID"] || ""}
+            // value={loginData["memberID"] || ""}
+            value="ENM$12874565"
             name="memberID"
             placeholder="Enter your Member ID"
             onFocus={() => {
@@ -78,7 +79,8 @@ export default function LoginForm({}) {
           <input
             type="password"
             onChange={handleChange}
-            value={loginData["password"] || ""}
+            // value={loginData["password"] || ""}
+            value="Jayakrishna@14s"
             name="password"
             placeholder="Enter the password"
             onFocus={() => {
