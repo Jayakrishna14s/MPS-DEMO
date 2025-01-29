@@ -7,7 +7,7 @@ export default function LoginForm({}) {
   const [alertMessage, setAlertMessage] = useState("");
   const [loginData, setLoginData] = useState("");
 
-  const validate = () => {
+  const validate = () => {/*
     const memberID = loginData["memberID"] || "";
     const password = loginData["password"] || "";
     const regex = /^ENM\$[A-Za-z0-9]{8}$/;
@@ -33,7 +33,7 @@ export default function LoginForm({}) {
     console.log(loginData);
 
     // login jwt
-
+*/
     window.location.href = "/home";
   };
 
@@ -58,8 +58,8 @@ export default function LoginForm({}) {
           <input
             type="text"
             onChange={handleChange}
-            // value={loginData["memberID"] || ""}
-            value="ENM$67898765"
+            value={loginData["memberID"] || ""}
+            // value="ENM$67898765"
             name="memberID"
             placeholder="Enter your Member ID"
             onFocus={() => {
@@ -79,8 +79,8 @@ export default function LoginForm({}) {
           <input
             type="password"
             onChange={handleChange}
-            // value={loginData["password"] || ""}
-            value="Jayakrishna@14s"
+            value={loginData["password"] || ""}
+            // value="Jayakrishna@14s"
             name="password"
             placeholder="Enter the password"
             onFocus={() => {
