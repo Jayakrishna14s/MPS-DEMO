@@ -1,0 +1,1 @@
+The values of MID and password are manually set in login page to let the viewers escape the validation. 
