@@ -8,7 +8,7 @@ import Home from "/src/routes/home/Home";
 import Profile from "/src/routes/profile/Profile";
 import Prescription from "/src/routes/prescription/Prescription";
 import Dashboard from "/src/routes/dashboard/Dashboard";
-import Help from "/src/routes/Help/Help";
+import Help from "/src/routes/help/Help";
 import Cart from "/src/routes/cart/Cart";
 import Settings from "/src/routes/settings/Settings";
 import FAQs from "/src/routes/faqs/FAQs";
