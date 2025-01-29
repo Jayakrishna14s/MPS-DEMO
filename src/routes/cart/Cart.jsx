@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "/src/Components-Common/Navbar";
-import CartItems from "/src/routes/Cart/components/CartItems";
+import CartItems from "/src/routes/cart/components/CartItems";
 
 const Cart = () => {
   return (
