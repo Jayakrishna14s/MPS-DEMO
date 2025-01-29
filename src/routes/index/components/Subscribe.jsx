@@ -14,7 +14,7 @@ const Subscribe = () => {
     };
 
     // Fetching the task
-
+    /*
     const PRODUCER_SPRING = `${import.meta.env.VITE_PRODUCER_SPRING_URL}`;
 
     const producer_response = await axios.post(
@@ -54,7 +54,7 @@ const Subscribe = () => {
       setSubscribedButtonElement(3);
       document.getElementById("message").innerHTML =
         "Mail attempt failed, Retry again !!";
-    }
+    }*/
   }
 
   function Subscribe(event) {
