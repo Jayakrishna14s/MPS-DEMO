@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "/src/components-Common/Navbar";
+import Navbar from "/src/Components-Common/Navbar";
 
 const Dashboard = () => {
   return (
