@@ -1,0 +1,16 @@
+npm install
+npm i bootstrap@5.3.3
+npm install react-router-dom
+
+
+https://tailwindcss.com/docs/guides/vite    
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm install axios
+# npm install --save-dev dotenv
+
+
+npm install uuid
+npm install react-awesome-captcha
