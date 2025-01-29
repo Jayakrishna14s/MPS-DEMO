@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "/src/components-Common/Navbar";
+import Navbar from "/src/Components-Common/Navbar";
 import CartItems from "/src/routes/Cart/components/CartItems";
 
 const Cart = () => {
