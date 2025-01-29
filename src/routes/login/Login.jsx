@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import Navbar from "/src/routes/login/components/Navbar";
-import LoginForm from "/src/routes/login/Components/LoginForm";
+import LoginForm from "/src/routes/login/components/LoginForm";
 import Footer from "/src/Components-common/Footer.jsx";
 
 const Login = () => {
