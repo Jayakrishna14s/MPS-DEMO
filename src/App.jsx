@@ -4,7 +4,7 @@ import Signup from "/src/routes/signup/Signup";
 import Login from "/src/routes/login/Login";
 import Error from "/src/routes/error/Error";
 import ForgotPassword from "/src/routes/forgotpassword/ForgotPassword";
-import Home from "/src/routes/home/HOME";
+import Home from "/src/routes/home/Home";
 import Profile from "/src/routes/profile/Profile";
 import Prescription from "/src/routes/prescription/Prescription";
 import Dashboard from "/src/routes/dashboard/Dashboard";
