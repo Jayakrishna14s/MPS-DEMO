@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Navbar = ({ index }) => {
+const Navbar = ({ index, privilege }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false); // for profile, settings, FAQs, Logout, plans
 
@@ -16,7 +16,18 @@ const Navbar = ({ index }) => {
 
   return (
     <nav className="bg-white shadow-lg">
+      {!privilege ? (
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a className="flex items-center space-x-3 rtl:space-x-reverse hover:scale-105">
+          <img
+            src="https://res.cloudinary.com/dkezdazmt/image/upload/v1735488122/Evernorth/evernorth.svg"
+            className="h-8"
+          />
+        </a>
+      </div>
+      ) : (
+      
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a className="flex items-center space-x-3 rtl:space-x-reverse hover:scale-105">
           <img
             src="https://res.cloudinary.com/dkezdazmt/image/upload/v1735488122/Evernorth/evernorth.svg"
@@ -194,6 +205,7 @@ const Navbar = ({ index }) => {
           </ul>
         </div>
       </div>
+      ))
     </nav>
   );
 };
