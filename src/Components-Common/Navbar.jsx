@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Navbar = ({ index, privilege }) => {
+const Navbar = ({ index, privilege = true }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false); // for profile, settings, FAQs, Logout, plans
 
