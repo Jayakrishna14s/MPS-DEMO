@@ -55,6 +55,14 @@ const Subscribe = () => {
       document.getElementById("message").innerHTML =
         "Mail attempt failed, Retry again !!";
     }*/
+
+    // additional 
+      setTimeout(() => {
+         setSubscribedButtonElement(3);
+          document.getElementById("message").innerHTML =
+            "Mail attempt failed, Retry again !!";
+      }, 3000);
+    
   }
 
   function Subscribe(event) {
