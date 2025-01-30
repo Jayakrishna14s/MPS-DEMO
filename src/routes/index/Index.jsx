@@ -3,6 +3,7 @@ import About from "/src/routes/index/components/About";
 import Services from "/src/routes/index/components/Services";
 import Subscribe from "/src/routes/index/components/Subscribe";
 // import Footer from "/src/routes/index/components/Footer";
+import Guide from "/src/routes/index/components/Guide";
 import Footer from "/src/Components-Common/Footer.jsx";
 
 const Index = () => {
@@ -26,6 +27,7 @@ const Index = () => {
 
           <Footer />
         </div>
+        <Guide />
       </div>
     </>
   );
