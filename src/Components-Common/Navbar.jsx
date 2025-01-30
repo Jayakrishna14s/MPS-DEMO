@@ -205,7 +205,7 @@ const Navbar = ({ index, privilege }) => {
           </ul>
         </div>
       </div>
-      ))
+      )}
     </nav>
   );
 };
