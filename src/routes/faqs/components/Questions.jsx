@@ -33,7 +33,7 @@ const Questions = () => {
   return (
     <div className="flex flex-col ">
       <main className="flex-grow  p-6 my-8">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-6 ">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-10 ">
           Frequently Asked Questions
         </h1>
         <div className="max-w-4xl mx-auto">
