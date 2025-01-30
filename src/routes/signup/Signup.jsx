@@ -69,7 +69,7 @@ const Signup = () => {
 
   const handleClick = (direction) => {
     let newStep = currentStep;
-    if (direction != "next") {
+    /*if (direction != "next") {
       newStep--;
       newStep >= 0 && newStep < steps.length && setCurrentStep(newStep);
       setAlertMessage("");
@@ -199,7 +199,7 @@ const Signup = () => {
     }
 
     console.log(userData["countryCode"]);
-    console.log(userData);
+    console.log(userData); */
 
     direction === "next" ? newStep++ : newStep--;
     newStep >= 0 && newStep < steps.length && setCurrentStep(newStep);
