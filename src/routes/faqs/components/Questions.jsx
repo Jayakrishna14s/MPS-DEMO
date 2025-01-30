@@ -8,7 +8,7 @@ const Questions = () => {
   const questionsPerPage = 8;
 
   const handleNextPage = () => {
-    if (currentPage < Math.ceil(faqs.length / questionsPerPage)) {
+    if (currentPage < Math.ceil(RawFAQs().length / questionsPerPage)) {
       setCurrentPage(currentPage + 1);
     }
   };
