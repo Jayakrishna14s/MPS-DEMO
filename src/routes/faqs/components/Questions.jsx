@@ -56,7 +56,7 @@ const Questions = () => {
         </div>
 
         {/* Pagination Controls */}
-        <div className="flex justify-center items-center mt-4 space-x-2">
+        <div className="flex justify-center items-center my-8 space-x-2">
           <button
             className={`py-2 px-4 rounded border ${
               currentPage === 1
