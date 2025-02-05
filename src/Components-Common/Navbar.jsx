@@ -141,7 +141,7 @@ const Navbar = ({ index, privilege = true }) => {
           }`}
           id="navbar-cta"
         >
-          <ul className="text-[#035c67] flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="text-[#035c67] flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-white">
             <li>
               <a
                 href="/home"
@@ -150,7 +150,7 @@ const Navbar = ({ index, privilege = true }) => {
                     index === 0 &&
                     "md:border-b-2 border-b-[#035c67] bg-[#035c67] md:bg-transparent text-white md:text-[#035c67] rounded md:rounded-none"
                   }
-                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105  dark:hover:bg-gray-700 dark:border-gray-700
                 `}
               >
                 Home
@@ -164,7 +164,7 @@ const Navbar = ({ index, privilege = true }) => {
                     index === 1 &&
                     "md:border-b-2 border-b-[#035c67] bg-[#035c67] md:bg-transparent text-white md:text-[#035c67]"
                   }
-                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105  dark:hover:bg-gray-700  dark:border-gray-700
                 `}
                 // className="cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
@@ -179,7 +179,7 @@ const Navbar = ({ index, privilege = true }) => {
                     index === 2 &&
                     "md:border-b-2 border-b-[#035c67] bg-[#035c67] md:bg-transparent text-white md:text-[#035c67]"
                   }
-                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105  dark:hover:bg-gray-700  dark:border-gray-700
                 `}
                 // className="cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
@@ -195,7 +195,7 @@ const Navbar = ({ index, privilege = true }) => {
                     index === 3 &&
                     "md:border-b-2 border-b-[#035c67] bg-[#035c67] md:bg-transparent text-white md:text-[#035c67]"
                   }
-                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+                   cursor-pointer block py-2 px-3 md:p-0  hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105  dark:hover:bg-gray-700  dark:border-gray-700
                 `}
                 // className="cursor-pointer block py-2 px-3 md:p-0 hover:bg-gray-100 md:hover:bg-transparent md:hover:scale-105 md:dark:hover:scale-105 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
